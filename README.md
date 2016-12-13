@@ -84,3 +84,7 @@ else {
 
 Bron: http://www.2john.com/html/js/js-dt.htm#tijd
 
+###Wat ga ik verder nog onderzoeken?
+- API's om het weer te verbinden met javascript
+- Database gebruiken om data op te slaan en terug te halen
+
