@@ -115,7 +115,7 @@ De code die ik hiervoor heb geschreven is te vinden in de map onder de naam 'Def
 
 Deze code hebben we ook in de uiteindelijke applicatie gebruikt. 
 
-
+In de map is onder de naam 'code schema' een schema te vinden dat ik heb gemaakt van alle code. Op deze manier heb ik overzicht voor mezelf gecreërd in het lezen van de code. Ook het veranderen van de code werd hierdoor een stukje makkelijker. Ik heb door me te laten helpen op het gebied van Javascript en API's veel geleerd van de logica die achter Javascript zit. Ik vind Javascript wel nog steeds erg lastig om volledig zelf te kunnen schrijven.
 
 
 
