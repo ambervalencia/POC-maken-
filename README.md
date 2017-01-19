@@ -17,7 +17,7 @@ Technische uitdagingen:
 - Het antwoord op een vraag omzetten in een visuele weergave. 
 
 
-
+####Verandering van focus
 
 Mijn leerdoelen:
 - Javascript beter onder de knie krijgen, zodat ik voor meer interactie kan zorgen binnen een applicatie.
@@ -70,7 +70,7 @@ var s = addZero(d.getSeconds());
 var tijd = h + ":" + m + ":" + s;
 }
 
-Nadat ik het eerste stukje code had gevonden, ben ik opzoek gegaan naar het volgende stukje code. Namelijk de code waarmee we uiteindelijk de vragen gaan veranderen naar aanleiding van de tijd. Ik heb deze code niet kunnen testen, maar als het goed is, wordt er nu om 12 uur in de nacht of later een zin random gekozen uit de array 'mijnZinnenAvond'. Als het anders is dan 12 uur of later, dus eerder, dan wordt er een zin random gekozen uit de array 'mijnZinnenOchtend'. Ik heb wel een prototype gemaakt met code om de zinnen te laten veranderen, maar dit gebeurt op dit moment door de pagina opnieuw te openen en niet gebaseerd op tijd. 
+Nadat ik het eerste stukje code had gevonden, ben ik opzoek gegaan naar het volgende stukje code. Namelijk de code waarmee we uiteindelijk de vragen gaan veranderen naar aanleiding van de tijd. Deze code heb ik geprobeerd werkend te krijgen en dat is me gelukt. 
 
 var random = Math.random();
 
@@ -95,7 +95,6 @@ if (d.getHours() >= 12 && d.getMinutes() >= 00) {
 else {
   document.getElementById("tekst").innerHTML = mijnZinnenOchtend[Math.floor(random*(lengteOchtend-1))];
 }
-
 
 Bron: http://www.2john.com/html/js/js-dt.htm#tijd
 
