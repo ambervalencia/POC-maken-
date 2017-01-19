@@ -1,128 +1,42 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Progressive Web Application</title>
-    <meta http-equiv=X-UA-Compatible content="IE=edge">
-    <meta name=description content="This web application will work in offline, has a splash screen add to home screen etc,.">
-    <meta name=viewport content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="theme-color" content="#0288d1">
-    <meta name="msapplication-TileColor" content="#0288d1">
-    <meta name="msapplication-TileImage" content="./images/icons/mstile-150x150.png">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Progressive Web Application">
-    <meta name="application-name" content="Progressive Web Application">
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <title>Artikelpagina</title>
+</head>
 
-		<!-- icon -->
-    <link rel="apple-touch-icon" href="./images/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="./images/icons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="./images/icons/favicon-16x16.png" sizes="16x16">
-		<link rel="manifest" href="./manifest.json">
+<header>
+    <div class="header">
+           <section id="menu-icon-wrapper">
+                <a id="menu-icon" href="#"></a>
+            </section>
+        <h1 class="home">Home</h1>
+    </div>
+    
+</header>
+    
+<body>
+    <nav>
+            <ul id="menu-list">
+                    <li><a href="#">Home</a></li>
+                     <li><a href="#">Mijn fotodagboek</a></li>
+                    <li><a href="#">Mijn groep</a></li>
+                    <li><a href="#">Y-BOCS</a></li>
+                <li><a href="#">Instellingen</a></li>
+                    <li><a href="#">Afmelden</a></li>
+                </ul>
+            </nav>
+    
+    <article id="toevoegblok">
+        <section>
+            <div id="tekst"></div>
+            <button type="button" id="button">Delen</button>
+        </section>
 
-		<!-- styles -->
-    <link rel="stylesheet" href="./css/styles.css">
-		<link rel="stylesheet" href="./css/homepage.css">
-  </head>
-
-	<body>
-		<header>
-	  	<button class="hamburger">
-	    	<svg class="hamburger__icon" width="24px" height="24px" viewBox="0 0 48 48" fill="#fff">
-	      	<path d="M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z"></path>
-	      </svg>
-	    </button>
-	    <span>HOME</span>
-	  </header>
-
-	  <section class="menu">
-	  	<h2 class="menu__header">My App</h2>
-	    <ul class="menu__list">
-	      <li><a href="./index.html">Home</a></li>
-	      <li><a href="./index.html">Mijn fotodagboek</a></li>
-				<li><a href="./agenda.html">Agenda</a></li>
-	      <li><a href="/index.html">Mijn groep</a></li>
-	      <li><a href="/index.html">Y-BOCS</a></li>
-	      <li><a href="/index.html">Instellingen</a></li>
-	      <li><a href="/index.html">Afmelden</a></li>
-		</section>
-	  <section class="menu__overlay"></section>
-
-		<main>
-    	<section class="post__all" id="post__one">
-				<a href="./makepostpageone.html">
-        	<p id="passende-zin"></p>
-          <img id="add__button" src="images/add.png">
-          <p id="post__tell">Vertel ons jouw ervaring of deel iets anders</p>
-        </a>
-				<section id="authorize">
-					<button id="authorize__button" onclick="handleAuthClick(event)">Authorize</button>
-				</section>
-      </section>
-
-      <section class="post__all">
-		     <img class="post__img" src="images/dog.jpg">
-		     <p class="post__name">Amber</p>
-		     <p class="post__date">13-13-2016</p>
-		     <p class="post__text">Haarlem, familie - Ik ben met de hond gaan lopen. Veel mensen, maar het ging gelukkig best...</p>
-		     <a href="#" class="post__more">Lees meer</a>
-    	</section>
-
-      <section class="post__all">
-         <img class="post__img" src="images/dog.jpg">
-         <p class="post__name">Amber</p>
-         <p class="post__date">13-13-2016</p>
-         <p class="post__text">Haarlem, familie - Ik ben met de hond gaan lopen. Veel mensen, maar het ging gelukkig best...</p>
-         <a href="#" class="post__more">Lees meer</a>
-      </section>
-
-      <section class="post__all">
-         <img class="post__img" src="images/dog.jpg">
-         <p class="post__name">Amber</p>
-         <p class="post__date">13-13-2016</p>
-         <p class="post__text">Haarlem, familie - Ik ben met de hond gaan lopen. Veel mensen, maar het ging gelukkig best...</p>
-         <a href="#" class="post__more">Lees meer</a>
-      </section>
-
-      <section class="post__all">
-         <img class="post__img" src="images/dog.jpg">
-         <p class="post__name">Amber</p>
-         <p class="post__date">13-13-2016</p>
-         <p class="post__text">Haarlem, familie - Ik ben met de hond gaan lopen. Veel mensen, maar het ging gelukkig best...</p>
-         <a href="#" class="post__more">Lees meer</a>
-      </section>
-
-			<section class="fab fab__push">
-				<section class="fab__ripple"></section>
-				<img class="fab__image" src="./images/push-off.png" alt="Push Notification" />
-			</section>
-
-			<!-- notificatie messages  -->
-			<section class="toast__container"></section>
-		</main>
-
-	  <!-- JS Files  -->
-	  <script src="https://apis.google.com/js/client.js"> </script>
-	  <script src="./js/agenda_eerste_zin.js"></script>
-		<script src="./js/app.js"></script>
-	  <script src="./js/menu.js"></script>
-	  <script src="./js/offline.js"></script>
-		<script src="./js/push.js"></script>
-	  <script src="./js/share.js"></script>
-	  <script src="./js/sync.js"></script>
-		<script src="./js/toast.js"></script>
-
-		<script type="text/javascript">
-		//If serviceWorker supports, then register it.
-		if ("serviceWorker" in navigator) {
-			navigator.serviceWorker.register('./serviceWorker.js', { scope: "./" }) //setting scope of sw
-			.then(function (registration) {
-				console.info('Service worker is registered!');
-			})
-			.catch(function (error) {
-				console.error('Service worker failed ', error);
-			});
-		}
-		</script>
-  </body>
+    </article>
+     <script src="jsprototypemaken.js"></script>    
+    
+    </body>
 </html>
+    
