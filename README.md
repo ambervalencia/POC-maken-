@@ -88,6 +88,8 @@ else {
   document.getElementById("tekst").innerHTML = mijnZinnenOchtend[Math.floor(random*(lengteOchtend-1))];
 }
 
+In repository patch 1 is de code volledig te vinden te vinden.
+
 Bron: http://www.2john.com/html/js/js-dt.htm#tijd
 
 #Verandering van focus
