@@ -103,7 +103,7 @@ Technische uitdagingen:
 - Een calendar-API aansluiten aan de applicatie. 
 - De code van de calendar-API ombouwen tot javascript die gebruikt kan worden voor de 'vraag van de dag'. 
 
-# Onderzoek 2
+# Conclusie --> uiteindelijke resultaat
 
 Om een calendar-API aan te sluiten aan de applicatie, ben ik gaan zoeken naar verschillende API's. Zo heb ik een calendar API gevonden die alle soorten agenda's op kan halen. Deze API heet Cronofy. Ik had deze API helemaal ingesteld, maar kwam er bij de laatste stap achter dat er back-end code voor nodig was om het werkend te krijgen. Ik ben hiermee naar Fons gegaan om te vragen wat ik hier mee moest en hij vertelde mij hier niet verder meer te gaan. Ik ben toen opzoek gegaan naar een andere calender-API en kwam uit bij de Google Calendar-API. Ook hiervan heb ik het stappen plan gevolgd om het werkend te krijgen. Ik heb ervoor gezorgd dat ik een cliënt-ID meekreeg zodat de code op mijn applicatie kon draaien. 
 
@@ -116,6 +116,9 @@ De code die ik hiervoor heb geschreven is te vinden in de map onder de naam 'Def
 Deze code hebben we ook in de uiteindelijke applicatie gebruikt. 
 
 In de map is onder de naam 'code schema' een schema te vinden dat ik heb gemaakt van alle code. Op deze manier heb ik overzicht voor mezelf gecreërd in het lezen van de code. Ook het veranderen van de code werd hierdoor een stukje makkelijker. Ik heb door me te laten helpen op het gebied van Javascript en API's veel geleerd van de logica die achter Javascript zit. Ik vind Javascript wel nog steeds erg lastig om volledig zelf te kunnen schrijven.
+
+Bron: https://developers.google.com/google-apps/calendar/quickstart/js
+Bron: https://www.cronofy.com/
 
 
 
