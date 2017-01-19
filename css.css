@@ -1,0 +1,119 @@
+html {
+		margin:0;
+ padding:0;
+		font:100% "Open sans";
+	}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color:#add9d4;
+}
+
+.header {
+  display:flex;
+ margin: auto;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 4em;
+  background-color: #03BF9E;
+}
+
+.home{
+    display: block;
+    order: 1;
+    width: 80%;
+    color: white;
+    margin-top: 0.3em;
+    text-align:center;
+}
+
+/* code menu */
+header:first-child section#menu-icon-wrapper {
+    order:0;
+    width:10%;
+}
+
+header:first-child section#menu-icon-wrapper a#menu-icon {
+    display: block; 
+    background: url(afbeeldingen/menuicoon.png);
+      height: 40px;
+      width: 40px;
+      margin-top: 0.6em;
+    margin-left: 0.9em;
+    margin-right: 0;
+}
+
+.is-hidden {
+  max-height: 0;
+  overflow: hidden;
+}
+    
+nav{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    padding: 3%;
+    margin: 0%;
+    padding-top: 0%;
+    }
+
+nav ul li{
+    list-style: none;
+    width: 100%;
+    height:2em;
+    padding-top: 3%;
+    }
+    
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    }
+
+nav ul li a:hover {
+    opacity: 0.5;
+}
+
+
+
+/* code body */
+
+#toevoegblok {
+    display: flex;
+    width:90%;
+    height: 5em;
+    margin:auto;
+    background-color: #03BF9E;
+}
+
+div {
+    display: block;
+    order:1;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    color: white;
+}
+
+button {
+    display: block;
+    order: 2;
+    width: 60px;
+    height: 25px;
+    margin-top: 5%;
+    margin-left: 120%;
+    color: white;
+    font-size: 0.9em;
+    border: solid 1px white;
+    background-color: rgba(1, 75, 62, 0);
+    
+}
