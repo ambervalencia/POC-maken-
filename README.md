@@ -4,6 +4,9 @@
 
 Deelvraag: Hoe kunnen we ervoor zorgen dat de cliënten elke dag een leuk berichtje in de applicatie plaatsen?
 
+####Eerste gedachten
+In eerst instantie wilde ik ervoor zorgen dat ik de antwoorden op de 'vraag van de dag' kon opslaan in een database. Ik wilde gaan onderzoeken hoe een database opgezet kon worden voor de applicatie en hoe ik hier gebruik van kon gaan maken. Dit zou handig zijn voor de ontwikkeling van de applicatie en voor mijn eigen kennis-ontwikkeling. 
+
 Mijn leerdoelen:
 - Javascript beter onder de knie krijgen, zodat ik voor meer interactie kan zorgen binnen een applicatie.
 - Begrijpen hoe de antwoorden op een vraag binnen de applicatie per persoon opgeslagen kunnen worden. 
@@ -12,6 +15,18 @@ Technische uitdagingen:
 - Opslaan van het antwoord op een vraag binnen de applicatie, dus hoe wordt de data opgeslagen?
 - De vraag elke dag of elk dagdeel laten veranderen.
 - Het antwoord op een vraag omzetten in een visuele weergave. 
+
+
+
+
+Mijn leerdoelen:
+- Javascript beter onder de knie krijgen, zodat ik voor meer interactie kan zorgen binnen een applicatie.
+- Javascript gebruiken om een vraag te baseren op de agenda van de gebruiker. 
+
+Technische uitdagingen:
+- De vraag baseren op de activiteiten in de agenda van de gebruiker.
+- Een calendar-API aansluiten aan de applicatie. 
+- De code van de calendar-API ombouwen tot javascript die gebruikt kan worden voor de 'vraag van de dag'. 
 
 # Onderzoeksverslag 
 
