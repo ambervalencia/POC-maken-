@@ -25,7 +25,7 @@ Om een beter beeld te krijgen van wat mijn deelvraag precies inhoudt, ben ik sch
 - Op welke manier wordt de verkregen data opgeslagen?
 - Welke mogelijkheden zijn er op het gebied van tijdsgebonden vragen met Javascript?
 
-### Onderzoek:
+### Onderzoek 1:
 - Moeten de vragen random of gestructureerd veranderen?
 
 Om deze vraag te beantwoorden, ben ik opnieuw naar de huidige applicatie gaan kijken. Hier wordt geen duidelijke vraag gesteld aan de gebruikers. Er wordt op dit moment gevraagd om een afbeelding van een activiteit toe te voegen. Hierbij kunnen de gebruikers hun gevoelens weergeven door een aantal korte vragen te beantwoorden, zoals: 'Hoe voelde je je hierbij op dit moment?', 'Welke risico's waren er op dit moment van toepassing?', 'Welke signalen waren er op dit moment van toepassing?'. Aan het einde kunnen de gebruikers een korte beschrijving van de activiteit toevoegen. Op dit moment wordt er dus niet één duidelijke vraag gesteld, maar wordt er ook niet gewisseld tussen vragen. De gebruikers krijgen elke dag exact hetzelfde te zien, wat de motivatie om een bericht te plaatsen niet heel groot maakt. 
