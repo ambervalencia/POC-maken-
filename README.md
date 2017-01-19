@@ -1,8 +1,8 @@
 # Proof of Concept -maken-
 
-"Hoe kunnen we BDD cliënten helpen om hun herstelproces inzichtelijker te maken, zodat ze zich bewust worden van hun gedrag en minder kans hebben op een terugval?"
+"Hoe kunnen we BDD patiënten helpen om hun herstelproces inzichtelijker te maken, zodat ze zich bewust worden van hun gedrag en minder kans hebben op een terugval?"
 
-Deelvraag: Hoe kunnen we ervoor zorgen dat de cliënten elke dag een leuk berichtje in de applicatie plaatsen?
+Deelvraag: Hoe kunnen we ervoor zorgen dat de patiënten elke dag een leuk berichtje in de applicatie plaatsen?
 
 ####Eerste gedachten
 In eerst instantie wilde ik ervoor zorgen dat ik de antwoorden op de 'vraag van de dag' kon opslaan in een database. Ik wilde gaan onderzoeken hoe een database opgezet kon worden voor de applicatie en hoe ik hier gebruik van kon gaan maken. Dit zou handig zijn voor de ontwikkeling van de applicatie en voor mijn eigen kennis-ontwikkeling. 
@@ -16,19 +16,7 @@ Technische uitdagingen:
 - De vraag elke dag of elk dagdeel laten veranderen.
 - Het antwoord op een vraag omzetten in een visuele weergave. 
 
-
-####Verandering van focus
-
-Mijn leerdoelen:
-- Javascript beter onder de knie krijgen, zodat ik voor meer interactie kan zorgen binnen een applicatie.
-- Javascript gebruiken om een vraag te baseren op de agenda van de gebruiker. 
-
-Technische uitdagingen:
-- De vraag baseren op de activiteiten in de agenda van de gebruiker.
-- Een calendar-API aansluiten aan de applicatie. 
-- De code van de calendar-API ombouwen tot javascript die gebruikt kan worden voor de 'vraag van de dag'. 
-
-# Onderzoeksverslag 
+# Onderzoek
 
 ### Inleiding:
 
@@ -42,15 +30,19 @@ Om een beter beeld te krijgen van wat mijn deelvraag precies inhoudt, ben ik sch
 
 Om deze vraag te beantwoorden, ben ik opnieuw naar de huidige applicatie gaan kijken. Hier wordt geen duidelijke vraag gesteld aan de gebruikers. Er wordt op dit moment gevraagd om een afbeelding van een activiteit toe te voegen. Hierbij kunnen de gebruikers hun gevoelens weergeven door een aantal korte vragen te beantwoorden, zoals: 'Hoe voelde je je hierbij op dit moment?', 'Welke risico's waren er op dit moment van toepassing?', 'Welke signalen waren er op dit moment van toepassing?'. Aan het einde kunnen de gebruikers een korte beschrijving van de activiteit toevoegen. Op dit moment wordt er dus niet één duidelijke vraag gesteld, maar wordt er ook niet gewisseld tussen vragen. De gebruikers krijgen elke dag exact hetzelfde te zien, wat de motivatie om een bericht te plaatsen niet heel groot maakt. 
 
-Wij willen dat de gebruikers gemotiveerd raken om een bericht te plaatsen omdat het als leuk en interessant ervaren wordt. Door naar het concept en de huidige applicatie te kijken, lijkt het erop dat random vragen handiger zijn. Dit houdt de applicatie interessant en leuk om te gebruiken. Als de vragen op een vaste volgorde gevraagd worden, ontstaat er een patroon die de gebruikers zouden kunnen herkennen. Dit haalt het interessante en het leuke van de applicatie weg. 
+Wij willen dat de gebruikers gemotiveerd worden om een bericht te plaatsen omdat het als leuk en interessant ervaren wordt. Door naar het concept en de huidige applicatie te kijken, lijkt het erop dat random vragen handiger zijn. Dit houdt de applicatie interessant en leuk om te gebruiken. Als de vragen op een vaste volgorde gevraagd worden, ontstaat er een patroon die de gebruikers zouden kunnen herkennen. Dit haalt het interessante en het leuke van de applicatie weg. 
 
 Ik zou ook graag willen weten of de vraag in de ochtend anders moet zijn dan in de middag. Misschien één vraag die in de ochtend op een andere manier wordt gesteld dan in de middag en de avond. Een voorbeeld in de ochtend: 'Wat ga je vandaag doen?', in de middag: 'Wat ben je aan het doen?', in de avond:'Wat heb je vandaag gedaan?'. 
  
-Om dit te verifiëren, wil ik graag met een BDD-cliënt praten over het soort vragen dat ze zouden verwachten en op welke manier ze de vragen zouden willen zien. We spreken de BDD-cliënten volgende week als het goed is nog een keer, dit is een mooie gelegenheid om dit aan ze voor te leggen. 
+Om dit te verifiëren, wil ik graag met een BDD-patiënt praten over het soort vragen dat ze zouden verwachten en op welke manier ze de vragen zouden willen zien. 
+
+#####Verandering na gesprek met BDD-patienten en de therapeuten
+
+Na de gesprekken met de BDD-patiënten en de therapeuten, zijn we erachter gekomen dat de 'vraag van de dag' niet op random aspecten uit het leven van de gebruiker gebaseerd moet worden. De vragen gaan vanaf nu gebaseerd worden op de activiteiten uit de agenda van de gebruiker, de locatie van de gebruiker en de activiteit binnen de applicatie van de gebruiker. 
 
 - Op welke manier wordt de verkregen data opgeslagen?
 
-De informatie moet sowieso opgeslagen worden in de database, zodat het vervolgens gevisualiseerd weergegeven kan worden binnen de applicatie. Door middel van SQL-code wordt de data naar de database gestuurd en kan de data ook weer opgevraagd worden. Over hoe dit moet, heb ik niet veel kunnen vinden. De stukken die ik heb kunnen vinden begreep ik niet. 
+De informatie moet opgeslagen worden in de database, zodat het vervolgens gevisualiseerd weergegeven kan worden binnen de applicatie. Door middel van SQL-code wordt de data naar de database gestuurd en kan de data ook weer opgevraagd worden. Over hoe dit moet, heb ik niet veel kunnen vinden. De stukken die ik heb kunnen vinden begreep ik niet en veel mensen hebben mij afgeraden om hier al mee te gaan werken als Javascript nog als lastig ervaren wordt.  
 
 - Welke mogelijkheden zijn er op het gebied van tijdsgebonden vragen met Javascript?
 
@@ -98,6 +90,19 @@ else {
 
 Bron: http://www.2john.com/html/js/js-dt.htm#tijd
 
+
+#Verandering van focus
+
+Mijn leerdoelen:
+- Javascript beter onder de knie krijgen, zodat ik voor meer interactie kan zorgen binnen een applicatie.
+- Javascript gebruiken om een vraag te baseren op de agenda van de gebruiker. 
+
+Technische uitdagingen:
+- De vraag baseren op de activiteiten in de agenda van de gebruiker.
+- Een calendar-API aansluiten aan de applicatie. 
+- De code van de calendar-API ombouwen tot javascript die gebruikt kan worden voor de 'vraag van de dag'. 
+
+# Onderzoeksverslag 2
 ###Wat ga ik verder nog onderzoeken?
 - API's om het weer te verbinden met javascript
 - Database gebruiken om data op te slaan en terug te halen
