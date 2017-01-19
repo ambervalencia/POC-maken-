@@ -46,7 +46,7 @@ De informatie moet opgeslagen worden in de database, zodat het vervolgens gevisu
 
 - Welke mogelijkheden zijn er op het gebied van tijdsgebonden vragen met Javascript?
 
-Ik ben opzoek gegaan op het internet naar mogelijkheden om een vraag te laten veranderen op basis van de tijd. Ik heb een stukje code gevonden waarmee de tijd door middel van Javascript gevonden kan worden. De tijd die uit de code hieronder zou komen is de huidige tijd in uren, minuten en seconden. 
+Ik ben opzoek gegaan naar mogelijkheden om een vraag te laten veranderen op basis van de tijd. Ik heb een stukje code gevonden waarmee de tijd door middel van Javascript gevonden kan worden. De tijd die uit de code hieronder zou komen is de huidige tijd in uren, minuten en seconden. 
 
 function addZero(i) {
     if (i < 10) {
@@ -62,7 +62,7 @@ var s = addZero(d.getSeconds());
 var tijd = h + ":" + m + ":" + s;
 }
 
-Nadat ik het eerste stukje code had gevonden, ben ik opzoek gegaan naar het volgende stukje code. Namelijk de code waarmee we uiteindelijk de vragen gaan veranderen naar aanleiding van de tijd. Deze code heb ik geprobeerd werkend te krijgen en dat is me gelukt. De vragen waren dus in de ochtend anders dan in de middag. 
+Nadat ik het eerste stukje code had gevonden, ben ik opzoek gegaan naar het volgende stukje code. Namelijk de code waarmee we uiteindelijk de vragen gaan laten veranderen naar aanleiding van de tijd. Deze code heb ik geprobeerd werkend te krijgen en dat is me gelukt. De vragen waren dus in de ochtend anders dan in de middag. 
 
 var random = Math.random();
 
@@ -92,20 +92,21 @@ Bron: http://www.2john.com/html/js/js-dt.htm#tijd
 
 #Verandering van focus
 
-Nadat ik me twee weken heb gefocust op het begrijpen van databases en veel tips heb gekregen om hier niet mee verder te gaan, heb ik besloten om me te gaan focussen op een ander gedeelte van de 'vraag van de dag'. Er zit voor mij al veel uitdaging in het koppelen van een agenda aan de applicatie. Ik ga me vanaf dit punt dan ook focussen op de javascript en de API die gebruikt moet worden om de agenda van een gebruiker aan te sluiten aan de applicatie. Uiteindelijk moet de vraag gebaseerd zijn op een activiteit in de agenda van de gebruiker. 
+Nadat ik me lang heb gefocust op het begrijpen van databases en veel tips heb gekregen om hier niet mee verder te gaan, heb ik besloten om me te gaan focussen op een ander gedeelte van de 'vraag van de dag'. Er zit voor mij al veel uitdaging in het koppelen van een agenda aan de applicatie. Ik ga me vanaf dit punt dan ook focussen op de javascript en de API die gebruikt moet worden om de agenda van een gebruiker aan te sluiten aan de applicatie. Uiteindelijk moet de vraag gebaseerd zijn op een activiteit in de agenda van de gebruiker. 
 
 Mijn leerdoelen:
 - Javascript beter onder de knie krijgen, zodat ik voor meer interactie kan zorgen binnen een applicatie.
 - Javascript gebruiken om een vraag te baseren op de agenda van de gebruiker. 
+- Leren hoe een API aan een applicatie aangesloten wordt. 
 
 Technische uitdagingen:
 - De vraag baseren op de activiteiten in de agenda van de gebruiker.
 - Een calendar-API aansluiten aan de applicatie. 
 - De code van de calendar-API ombouwen tot javascript die gebruikt kan worden voor de 'vraag van de dag'. 
 
-# Conclusie --> uiteindelijke resultaat
+# Uiteindelijke resultaat
 
-Om een calendar-API aan te sluiten aan de applicatie, ben ik gaan zoeken naar verschillende API's. Zo heb ik een calendar API gevonden die alle soorten agenda's op kan halen. Deze API heet Cronofy. Ik had deze API helemaal ingesteld, maar kwam er bij de laatste stap achter dat er back-end code voor nodig was om het werkend te krijgen. Ik ben hiermee naar Fons gegaan om te vragen wat ik hier mee moest en hij vertelde mij hier niet verder meer te gaan. Ik ben toen opzoek gegaan naar een andere calender-API en kwam uit bij de Google Calendar-API. Ook hiervan heb ik het stappen plan gevolgd om het werkend te krijgen. Ik heb ervoor gezorgd dat ik een cliënt-ID meekreeg zodat de code op mijn applicatie kon draaien. 
+Om een calendar-API aan te sluiten aan de applicatie, ben ik gaan zoeken naar verschillende API's. Zo heb ik een calendar API gevonden die alle soorten agenda's op kan halen. Deze API heet Cronofy. Ik had deze API helemaal ingesteld, maar kwam er bij de laatste stap achter dat er back-end code voor nodig was om het werkend te krijgen. Ik ben hiermee naar Fons gegaan om te vragen wat ik hier mee moest en hij vertelde mij hier niet verder mee te gaan. Ik ben toen opzoek gegaan naar een andere calender-API en kwam uit bij de Google Calendar-API. Ook hiervan heb ik het stappen plan gevolgd om het werkend te krijgen. Ik heb ervoor gezorgd dat ik een cliënt-ID meekreeg zodat de code op mijn applicatie kon draaien. 
 
 De code die ik mee kreeg van de Google API staat hieronder:
 <html>
@@ -230,13 +231,13 @@ De code die ik mee kreeg van de Google API staat hieronder:
   </body>
 </html>
 
-Met deze code werden alle activiteiten uit de agenda gehaald en getoond. Dit was natuurlijk niet genoeg, want de 'vraag van de dag' moest gebaseerd zijn om de activiteiten per dag. Ik heb deze code met hulp omgeschreven naar code die ervoor zorgt dat het alleen de activiteiten van één dag ziet en hierop de vraag vervolgens baseert. Ik ben door een programmeur geholpen om deze code werkend te krijgen en heb hard mijn best gedaan om precies te begrijpen hoe de code werkt en om echt mee te helpen om het te schrijven. 
+Met deze code werden alle activiteiten uit de agenda gehaald en getoond. Dit was natuurlijk niet genoeg, want de 'vraag van de dag' moest gebaseerd zijn om de activiteiten per dag. Ik heb deze code met hulp omgeschreven naar code die ervoor zorgt dat het alleen de activiteiten van één dag ziet en hierop de vraag vervolgens baseert. Ik ben door een programmeur geholpen om deze code werkend te krijgen en heb hard mijn best gedaan om precies te begrijpen hoe de code werkt en om echt mee te helpen bij te schrijven. 
 
 De code die ik hiervoor heb geschreven is te vinden in de master repository. 
 
 Deze code hebben we ook in de uiteindelijke applicatie gebruikt. 
 
-In de map is een schema te vinden die ik heb gemaakt van alle code. Op deze manier heb ik overzicht voor mezelf gecreërd in het lezen van de code. Ook het veranderen van de code werd hierdoor een stukje makkelijker. Ik heb door me te laten helpen op het gebied van Javascript en API's veel geleerd van de logica die achter Javascript zit. Ik vind Javascript wel nog steeds erg lastig om volledig zelf te kunnen schrijven.
+In de master repository is een schema te vinden die ik heb gemaakt van alle code. Op deze manier heb ik overzicht voor mezelf gecreërd in het lezen van de code. Ook het veranderen van de code werd hierdoor een stukje makkelijker. Ik heb door me te laten helpen op het gebied van Javascript en API's veel geleerd van de logica die achter Javascript zit. Ik vind Javascript wel nog steeds erg lastig om volledig zelf te kunnen schrijven.
 
 Bron: https://developers.google.com/google-apps/calendar/quickstart/js
 Bron: https://www.cronofy.com/
