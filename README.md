@@ -229,7 +229,7 @@ De code die ik mee kreeg van de Google API staat hieronder:
     </div>
     <pre id="output"></pre>
   </body>
-</html>
+  </html>
 
 Met deze code werden alle activiteiten uit de agenda gehaald en getoond. Dit was natuurlijk niet genoeg, want de 'vraag van de dag' moest gebaseerd zijn om de activiteiten per dag. Ik heb deze code met hulp omgeschreven naar code die ervoor zorgt dat het alleen de activiteiten van één dag ziet en hierop de vraag vervolgens baseert. Ik ben door een programmeur geholpen om deze code werkend te krijgen en heb hard mijn best gedaan om precies te begrijpen hoe de code werkt en om echt mee te helpen bij te schrijven. 
 
@@ -241,6 +241,8 @@ In de master repository is een schema te vinden die ik heb gemaakt van alle code
 
 Bron: https://developers.google.com/google-apps/calendar/quickstart/js
 Bron: https://www.cronofy.com/
+
+Naast 'de vraag van de dag', heb ik ook geholpen bij het opzetten van de rest van de applicatie. Zo heb ik mijn eigen key scenario 'het bericht plaatsen' uitgewerkt. Ik heb hier ook javascript gebruikt voor het werkend krijgen van de slider op het tweede scherm, het scherm waar de gebruikers hun spanningswaarde mee kunnen geven aan het bericht. Ook deze code is te vinden in de master repository. 
 
 
 
