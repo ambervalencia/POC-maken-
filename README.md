@@ -244,5 +244,5 @@ Bron: https://www.cronofy.com/
 
 Naast 'de vraag van de dag', heb ik ook geholpen bij het opzetten van de rest van de applicatie. Zo heb ik mijn eigen key scenario 'het bericht plaatsen' uitgewerkt. Ik heb hier ook javascript gebruikt voor het werkend krijgen van de slider op het tweede scherm, het scherm waar de gebruikers hun spanningswaarde mee kunnen geven aan het bericht. Ook deze code is te vinden in de master repository. 
 
-
+De link naar het prototype: https://oege.ie.hva.nl/~voordes003/
 
