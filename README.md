@@ -246,3 +246,19 @@ Naast 'de vraag van de dag', heb ik ook geholpen bij het opzetten van de rest va
 
 De link naar het prototype: https://oege.ie.hva.nl/~voordes003/
 
+# Must haves
+- De vraag moet ook gebaseerd zijn op het weer, de locatie en de activiteit van de gebruiker binnen de applicatie. 
+- De applicatie moet een back-end krijgen.
+- De nog niet bekeken onderdelen van het concept moeten in de applitie verwerkt worden.
+- De gebruikers moet een overzicht krijgen van hun spanningswaardes, risico's en signalen.
+- De gebruikers moeten toestemming kunnen geven voor het gebruik van de locatie en de agenda. 
+- De spanningswaarde bij het bericht moet zich aanpassen aan de spanningswaarde die de gebruikers heeft meegegeven.
+- De gebruikers moeten de risico's/signalen per bericht kunnen aanpassen.
+# Nice to have
+- De applicatie moet alle soorten agenda's op kunnen halen door middel van Cronofy.
+- Afbeeldingen kunnen schalen in de applicatie.
+- De gebruikers moeten kunnen kiezen of ze het bericht anoniem, openbaar of met een groep delen.
+- De applicatie moet alleen gebruikt kunnen worden met een licentie.
+- De agenda die de gebruikers kunnen invullen moet inspelen op de vraag. 
+
+
