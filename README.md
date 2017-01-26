@@ -246,19 +246,34 @@ Naast 'de vraag van de dag', heb ik ook geholpen bij het opzetten van de rest va
 
 De link naar het prototype: https://oege.ie.hva.nl/~voordes003/
 
-# Must haves
-- De vraag moet ook gebaseerd zijn op het weer, de locatie en de activiteit van de gebruiker binnen de applicatie. 
-- De applicatie moet een back-end krijgen.
-- De nog niet bekeken onderdelen van het concept moeten in de applitie verwerkt worden.
-- De gebruikers moet een overzicht krijgen van hun spanningswaardes, risico's en signalen.
-- De gebruikers moeten toestemming kunnen geven voor het gebruik van de locatie en de agenda. 
-- De spanningswaarde bij het bericht moet zich aanpassen aan de spanningswaarde die de gebruikers heeft meegegeven.
-- De gebruikers moeten de risico's/signalen per bericht kunnen aanpassen.
-# Nice to have
-- De applicatie moet alle soorten agenda's op kunnen halen door middel van Cronofy.
-- Afbeeldingen kunnen schalen in de applicatie.
-- De gebruikers moeten kunnen kiezen of ze het bericht anoniem, openbaar of met een groep delen.
-- De applicatie moet alleen gebruikt kunnen worden met een licentie.
-- De agenda die de gebruikers kunnen invullen moet inspelen op de vraag. 
+#Aspecten die voor een volgend project aangepakt moeten worden:
+Homepagina:
+- de vraag moet ook gebaseerd zijn op het weer, de locatie en de activiteit van de gebruiker binnen de applicatie. 
+- het kunnen reageren op andere gebruikers verwerken in de applicatie + onderzoek naar doen 
+- verder onderzoek doen naar de vraag van de dag
+
+Agenda:
+- agenda niet telkens hoeven te autoriseren, eenmalig en dan automatisch bijwerken ipv steeds op te moeten halen 
+- kleur opslaan in het agenda overzicht (agenda.html)
+- kleur agenda events gebruiken in de vraag van de dag 
+- agenda item kunnen toevoegen in Google agenda vanuit de applicatie
+- niet alleen een Google agenda gebruiken, maar alle mogelijke agenda’s op computer/smartphone (Cronofy)
+
+PWA/technisch:
+- offline werkend maken door de gehele applicatie 
+- notificaties op het juiste moment laten komen ipv gelinkt aan een knop
+- back-end toevoegen aan de gehele applicatie 
+
+Bericht plaatsen:
+- De spanningswaarde bij het bericht moet zich aanpassen aan de spanningswaarde die de gebruikers heeft meegegeven (technisch werkend krijgen)
+- De gebruikers moeten de risico's/signalen per bericht kunnen aanpassen (technisch werkend krijgen)
+
+Overige onderdelen applicatie:
+- de gestelde vragen moeten terug te vinden zijn voor de gebruiker
+- y-bocs moet uitgewerkt worden  
+- een overzicht voor de gebruiker waar hij/zij een proces kan zien in zijn/haar spanningswaardes/risico’s/signalen
+- de gebruiker moet toestemming kunnen geven na het aanmelden bij de applicatie voor het gebruik van de locatie en de agenda
+- het privacy gedeelte moet nog in de applicatie verwerkt worden: kiezen of de gebruiker het bericht anoniem, openbaar of met een groep wilt gaan delen
+- het aanmeld procedure moet nog gemaakt worden (licentiecode, naam, profielfoto(?), groep, terugvalpreventieplan
 
 
