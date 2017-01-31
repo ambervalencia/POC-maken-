@@ -108,6 +108,8 @@ Technische uitdagingen:
 
 Om een calendar-API aan te sluiten aan de applicatie, ben ik gaan zoeken naar verschillende API's. Zo heb ik een calendar API gevonden die alle soorten agenda's op kan halen. Deze API heet Cronofy. Ik had deze API helemaal ingesteld, maar kwam er bij de laatste stap achter dat er back-end code voor nodig was om het werkend te krijgen. Ik ben hiermee naar Fons gegaan om te vragen wat ik hier mee moest en hij vertelde mij hier niet verder mee te gaan. Ik ben toen opzoek gegaan naar een andere calender-API en kwam uit bij de Google Calendar-API. Ook hiervan heb ik het stappen plan gevolgd om het werkend te krijgen. Ik heb ervoor gezorgd dat ik een cliënt-ID meekreeg zodat de code op mijn applicatie kon draaien. 
 
+De code die ik heb gekregen van Google is te vinden in de master repository onder de naam Google code.
+
 Met deze code werden alle activiteiten uit de agenda gehaald en getoond. Dit was natuurlijk niet genoeg, want de 'vraag van de dag' moest gebaseerd zijn om de activiteiten per dag. Ik heb deze code met hulp omgeschreven naar code die ervoor zorgt dat het alleen de activiteiten van één dag ziet en hierop de vraag vervolgens baseert. Ik ben door een programmeur geholpen om deze code werkend te krijgen en heb hard mijn best gedaan om precies te begrijpen hoe de code werkt en om echt mee te helpen bij te schrijven. 
 
 De code die ik hiervoor heb geschreven is te vinden in de master repository. 
@@ -123,7 +125,7 @@ Naast 'de vraag van de dag', heb ik ook geholpen bij het opzetten van de rest va
 
 De link naar het prototype: https://oege.ie.hva.nl/~voordes003/
 
-#Aspecten die voor een volgend project aangepakt moeten worden:
+#Aspecten die voor een volgend project aangepakt moeten worden (deze zijn ook te vinden in de issues-lijst).
 Homepagina:
 - de vraag moet ook gebaseerd zijn op het weer, de locatie en de activiteit van de gebruiker binnen de applicatie. 
 - het kunnen reageren op andere gebruikers verwerken in de applicatie + onderzoek naar doen 
